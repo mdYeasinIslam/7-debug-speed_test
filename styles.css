@@ -5,6 +5,7 @@
 }
 
 body {
+  position: relative;
   background-image: url("./bg.png");
   background-size: cover;
   background-position: left top;
@@ -62,9 +63,9 @@ body {
   display: none;
 }
 #result {
-  position: fixed;
+  position: absolute;
   top: 10%; 
-  left: 10%;
+  left: 50%;
   transform: translate(-50%, -50%);
   height: 250px;
   width: 400px;
@@ -169,6 +170,7 @@ button {
 
 #modal-background {
   background: rgb(255, 255, 255);
+  /* background: rgb(212, 39, 39); */
   background: linear-gradient(
     92.49deg,
     rgba(255, 255, 255, 0.1) 0.18%,
