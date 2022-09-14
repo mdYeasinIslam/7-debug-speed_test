@@ -13,9 +13,34 @@
 <body>
     <header>
         <h1 class="text-center text-primary fs-1">Blog site.......</h1>
-        </header>
-        
-    
+    </header>
+    <main>
+        <section>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Question No. #1
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <h2>What is the difference between Local storage and Session storage?</h2>
+                            <strong>SessionStorage is similar to localStorage ; the difference is that while data in
+                                localStorage doesn't expire, data in sessionStorage is cleared when the page session
+                                ends. Whenever a document is loaded in a particular tab in the browser, a unique page
+                                session gets created and assigned to that particular tab.</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
