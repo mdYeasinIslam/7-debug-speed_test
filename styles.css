@@ -64,7 +64,7 @@ body {
 }
 #result {
   position: absolute;
-  top: 10%; 
+  top: 30%; 
   left: 50%;
   transform: translate(-50%, -50%);
   height: 250px;
@@ -160,6 +160,7 @@ button {
   padding: 20px 30px;
   color: white;
   border-radius: 15px;
+  border: 2px solid red;
   /* background: rgb(42, 39, 39); */
   background: linear-gradient(
     92.49deg,

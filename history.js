@@ -30,7 +30,7 @@ function displayHistory() {
   previousTests.forEach((test) => {
     const newRow = document.createElement("div");
     newRow.classList.add("card");
-
+     
     newRow.innerHTML = `
     <div class="history-head">
   <h3>${test.questionText}</h3>
