@@ -200,10 +200,7 @@ button {
     display: grid;
     grid-template-columns: repeat(3,256px);
   }
-  .card{
-   
-
-  }
+  
   .history-head{
     padding-bottom: 10px;
   }
